@@ -29,7 +29,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "Ruff and Ready"
+		brand = "Ruff & Ready"
 
 		[params.navigation.links]
 			about     = "About"
@@ -42,7 +42,7 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "The best home delivered raw food you can get"
-		subtitle   = "Why waste time going out when you can have complete raw meals delivered"
+		subtitle   = "Why waste time going out when you can have complete raw meals delivered directly to your home"
 		buttonText = "Find out more"
 
 
