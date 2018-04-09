@@ -50,7 +50,7 @@ googleAnalytics = ""
 	[params.about]
 		headline    = "We've got what you need!"
 		description = "The finest ingredients - the best service. You and your furry friend deserve it!"
-		buttonText  = "Order Now!"
+		buttonText  = "Check it out!"
 
 
 	# Service section
