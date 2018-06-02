@@ -34,14 +34,14 @@ googleAnalytics = ""
 		[params.navigation.links]
 			about     = "About"
 			services  = "Services"
-			portfolio = "Portfolio"
+			portfolio = "Products"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "The best home delivered raw food you can get"
+		slogan     = "The best home delivered raw food for your pet"
 		subtitle   = "Why waste time going out when you can have complete raw meals delivered directly to your home"
 		buttonText = "Find out more"
 
@@ -90,15 +90,17 @@ googleAnalytics = ""
 		headline = "Let us take some of the guesswork out of raw food"
 
 		[params.aside.button]
-			text = "Order Today"
-			link = "http://ruffandready.bigcartel.com"
+			text = "Coming Soon - Sign up Today"
+			## Change this back to - link = "http://ruffandready.bigcartel.com" once site live also change button to Order Now
+			link = "https://mailchi.mp/bd7ddacd2cea/ruffnready-coming-soon"
+
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to start your order but have a few questions? Let us know!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		phone = "587-433-1337"
+		email = "info@ruffandready.ca"
 
 	# Google Maps section
 	# [params.location]
