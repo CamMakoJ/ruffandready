@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "www.ruffandready.ca"
 languageCode = "en-us"
 title = "Ruff'n'Ready"
 theme = "hugo-creative-theme"
@@ -105,7 +105,7 @@ googleAnalytics = "UA-120221892-1"
 		phone = "587-433-1337"
 		email = "info@ruffandready.ca"
 
-	# Google Maps section
+	# Google Maps section - removed for now
 	# [params.location]
 	# 	latitude  = "34.007850"
 	# 	longitude = "-118.499305"
