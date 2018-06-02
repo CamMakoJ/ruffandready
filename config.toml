@@ -2,7 +2,7 @@ baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Ruff'n'Ready"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-120221892-1"
 
 [params]
 
@@ -20,6 +20,9 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
+
+	###Prior to going live - change 'projectss' to 'projects'
+
 	name = "Ruff and Ready"
 	description = "Raw Food Nutrition"
 
