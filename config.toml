@@ -47,6 +47,7 @@ googleAnalytics = "UA-120221892-1"
 		slogan     = "The best home delivered raw food for your pet"
 		subtitle   = "Why waste time going out when you can have complete raw meals delivered directly to your home"
 		buttonText = "Find out more"
+		logo = "/img/ruffandready.png"
 
 
 	# About section
