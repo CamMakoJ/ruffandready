@@ -55,6 +55,8 @@ googleAnalytics = "UA-120221892-1"
 		headline    = "We've got what you need!"
 		description = "The finest ingredients - the best service. You and your furry friend deserve it!"
 		buttonText  = "Check it out!"
+		content =  "\"Ruff'n'Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
+		logo = "/img/ruffandready_notext.png"
 
 
 	# Service section
@@ -107,7 +109,7 @@ googleAnalytics = "UA-120221892-1"
 		email = "info@ruffandready.ca"
 
 	# Google Maps section - removed for now
-	# [params.location]
-	# 	latitude  = "34.007850"
-	# 	longitude = "-118.499305"
+	 [params.location]
+	 	latitude  = "50.986"
+	 	longitude = "-113.974"
 	# 	maps_api_key = ""
