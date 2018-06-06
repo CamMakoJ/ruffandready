@@ -1,0 +1,23 @@
+.logo{
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.notext {
+  width: 195px;
+  height: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-middle {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.vcenter {
+        vertical-align: middle;
+}
