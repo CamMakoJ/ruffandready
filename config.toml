@@ -1,6 +1,6 @@
 baseurl = ""
 languageCode = "en-us"
-title = "Ruff'n'Ready"
+title = "Ruff & Ready"
 theme = "hugo-creative-theme"
 googleAnalytics = "UA-120221892-1"
 
@@ -23,7 +23,7 @@ googleAnalytics = "UA-120221892-1"
 
 	###Prior to going live - change 'projectss' to 'projects'
 
-	name = "Ruff and Ready"
+	name = "Ruff & Ready"
 	description = "Raw Food Nutrition"
 
 	# The path must be relative to the static folder
@@ -44,8 +44,8 @@ googleAnalytics = "UA-120221892-1"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "The best home delivered raw food for your pet"
-		subtitle   = "Why waste time going out when you can have complete raw meals delivered directly to your home"
+		slogan     = "The best raw food for your pet"
+		subtitle   = "Ruff and Ready takes the guesswork out of raw food. "
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
@@ -55,7 +55,7 @@ googleAnalytics = "UA-120221892-1"
 		headline    = "We've got what you need!"
 		description = "The finest ingredients - the best service. You and your furry friend deserve it!"
 		buttonText  = "Check it out!"
-		content =  "\"Ruff'n'Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
+		content =  "\"Ruff & Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
 		logo = "/img/ruffandready_notext.png"
 
 
@@ -74,9 +74,9 @@ googleAnalytics = "UA-120221892-1"
 					description = "Keep meals exciting and healthy with diverse mixed packs"
 
 				[[params.services.list]]
-					icon = "fa-truck"
-					title = "Free Delivery"
-					description = "You order, and we deliver! It's as simple as that"
+					icon = "fa-certificate"
+					title = "Certified Facilities"
+					description = "Our facilities are fully certified"
 
         [[params.services.list]]
           icon = "fa-heart"
@@ -93,7 +93,7 @@ googleAnalytics = "UA-120221892-1"
 
     # Aside section
 	[params.aside]
-		headline = "Let us take some of the guesswork out of raw food"
+		headline = "Let us take some of the guesswork out of raw food with our high quality Canadian sourced meals"
 
 		[params.aside.button]
 			text = "Coming Soon - Sign up Today"
@@ -112,4 +112,4 @@ googleAnalytics = "UA-120221892-1"
 	 [params.location]
 	 	latitude  = "50.986"
 	 	longitude = "-113.974"
-	# 	maps_api_key = ""
+	 	maps_api_key = "AIzaSyBkPePINOpQaOwp0TfNeVkMdTdUw-6AdHk"
