@@ -112,4 +112,4 @@ googleAnalytics = "UA-120221892-1"
 	 [params.location]
 	 	latitude  = "50.986"
 	 	longitude = "-113.974"
-	 	maps_api_key = "AIzaSyBkPePINOpQaOwp0TfNeVkMdTdUw-6AdHk"
+	 	maps_api_key = ""
