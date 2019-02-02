@@ -23,7 +23,7 @@ googleAnalytics = "UA-120221892-1"
 
 	###Prior to going live - change 'projectss' to 'projects'
 
-	name = "Ruff & Ready"
+	name = "Ruff'n'Ready"
 	description = "Raw Food Nutrition"
 
 	# The path must be relative to the static folder
@@ -32,7 +32,7 @@ googleAnalytics = "UA-120221892-1"
 
 	# Navigation
 	[params.navigation]
-		brand = "Ruff & Ready"
+		brand = "Ruff'n'Ready"
 
 		[params.navigation.links]
 			about     = "About"
@@ -45,7 +45,7 @@ googleAnalytics = "UA-120221892-1"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "The best raw food for your pet"
-		subtitle   = "Ruff and Ready takes the guesswork out of raw food. "
+		subtitle   = "Ruff'n'Ready takes the guesswork out of raw food. "
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
@@ -53,9 +53,9 @@ googleAnalytics = "UA-120221892-1"
 	# About section
 	[params.about]
 		headline    = "We've got what you need!"
-		description = "The finest ingredients - the best service. You and your furry friend deserve it!"
+		description = "The finest ingredients - 100% Protein <br>Your furry friend deserves the best!"
 		buttonText  = "Check it out!"
-		content =  "\"Ruff & Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
+		content =  "\"Ruff'n'Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
 		logo = "/img/ruffandready_notext.png"
 
 
@@ -66,7 +66,7 @@ googleAnalytics = "UA-120221892-1"
         [[params.services.list]]
             icon = "fa-cutlery"
             title = "Quality Food"
-            description = "We use diverse and top quality ingredients"
+            description = "We use diverse and top quality ingredients. All our food is also 100% protein"
 
         [[params.services.list]]
 					icon = "fa-list"
@@ -81,7 +81,7 @@ googleAnalytics = "UA-120221892-1"
         [[params.services.list]]
           icon = "fa-heart"
           title = "Made with Love"
-          description = "We love our pets and feed them the best we can offer!"
+          description = "We love our pets and feed them the best proteins we can get!"
 
 
     # Portfolio modals
@@ -105,7 +105,7 @@ googleAnalytics = "UA-120221892-1"
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to start your order but have a few questions? Let us know!"
-		phone = "587-433-1337"
+	#	phone = "587-433-1337"
 		email = "info@ruffandready.ca"
 
 	# Google Maps section - removed for now
