@@ -21,7 +21,6 @@ googleAnalytics = "UA-120221892-1"
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 
-	###Prior to going live - change 'projectss' to 'projects'
 
 	name = "Ruff'n'Ready"
 	description = "Raw Food Nutrition"
@@ -45,19 +44,18 @@ googleAnalytics = "UA-120221892-1"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "The best raw food for your pet"
-		subtitle   = "Ruff'n'Ready takes the guesswork out of raw food. "
+		subtitle   = "Ruff'n'Ready takes the guesswork out of raw food."
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
 
 	# About section
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "The finest ingredients - 100% Protein <br>Your furry friend deserves the best!"
-		buttonText  = "Check it out!"
+		headline    = "We go the extra mile to make your pet smile!"
+		description = "We are constantly searching out the finest ingredients for 100% Protein meals <br>Your furry friend deserves the best!"
+		buttonText  = "Meet the Team!"
 		content =  "\"Ruff'n'Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
 		logo = "/img/ruffandready_notext.png"
-
 
 	# Service section
 	[params.services]
@@ -105,8 +103,8 @@ googleAnalytics = "UA-120221892-1"
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to start your order but have a few questions? Let us know!"
-	#	phone = "587-433-1337"
-		email = "info@ruffandready.ca"
+		phone = "403-461-5998"
+		email = "info@ruffnready.ca"
 
 	# Google Maps section - removed for now
 	 [params.location]
