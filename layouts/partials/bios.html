@@ -1,8 +1,8 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-            {{ range .Site.Data.bios }}
-                <div class="col-lg-4 col-sm-6">
+            {{ range sort .Site.Data.bios "modalID"}}
+                <div class="col-md-6">
                     <a href="#biosModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="../img/bios/{{ .img }}" class="img-responsive" alt="">
                         {{ if and .title .role }}

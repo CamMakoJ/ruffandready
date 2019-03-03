@@ -48,6 +48,13 @@ googleAnalytics = "UA-120221892-1"
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
+		# Meet The Team section
+		[params.bio]
+			# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+			name     = "Meet The Team"
+			subtitle = ""
+
+
 
 	# About section
 	[params.about]

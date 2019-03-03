@@ -23,15 +23,6 @@
             {{ with .biography }}
             <p>{{ . | markdownify }}</p>
             {{ end }}
-            <hr class="star-primary">
-            {{ with .packaging }}
-            <p>{{ . | markdownify }}</p>
-            {{ end }}
-            <hr class="star-primary">
-            <p>Ingredients:</p>
-            {{ with .ingredients }}
-            <p>{{ . | markdownify }}</p>
-            {{ end }}
             {{ with $.Site.Params.bios.modal.buttonText }}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
             {{ end }}

@@ -4,20 +4,35 @@
 <head>
   {{ partial "head.html" . }}
 </head>
+{{ partial "nav-off-home.html" . }}
 
-<body id="page-top">
-  {{ partial "nav-off-home.html" . }}
-  {{ partial "header-space.html" . }}
-  <main>
+<br>
+<br>
 
-    <div>
-      <h1>Meet The Team</h1>
+<div class="header-content-inner">
+  <div>
+    {{ with .Site.Params.bio.name }}
+    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.bio.name .Site.Params.bio.subtitle }}
+    <hr> {{ end }} {{ with .Site.Params.bio.subtitle }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+  </div>
+</div>
+</header>
 
-      {{ partial "bios.html" . }}
-      {{ partial "bio-modals.html" . }}
 
+<main>
+  <div>
+    {{ partial "bios.html" . }}
+    {{ partial "bio-modals.html" . }}
+</main>
 
-
-  </main>
+<br>
+<div class="container text-center">
+  <div class="call-to-action">
+    <a href="/" class="btn btn-primary btn-xl">Home</a>
+  </div>
+</div>
+<br>
 </body>
 {{ partial "js.html" . }}
