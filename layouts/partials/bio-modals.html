@@ -1,63 +1,44 @@
-{{ "<!-- Portfolio Modals -->" | safeHTML }}
-{{ range .Site.Data.projects }}
-<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
+{{ "<!-- Bios Modals -->" | safeHTML }}
+{{ range .Site.Data.bios }}
+<div class="portfolio-modal modal fade" id="biosModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        {{ with .title }}
-                            <h2>{{ . }}</h2>
-                        {{ end }}
-                        {{ if and .title .description }}
-                            <hr class="star-primary">
-                        {{ end }}
-                        <img src="../img/bios/{{ .img }}" class="img-responsive img-centered" alt="">
-                        {{ with .description }}
-                            <p>{{ . | markdownify }}</p>
-                        {{ end }}
-                        <hr class="star-primary">
-                        {{ with .packaging }}
-                            <p>{{ . | markdownify }}</p>
-                        {{ end }}
-                          <hr class="star-primary">
-                          <p>Ingredients:</p>
-                        {{ with .ingredients }}
-                            <p>{{ . | markdownify }}</p>
-                        {{ end }}
-
-                        {{ if or .client .date .storelink }}
-                            <ul class="list-inline item-details">
-                              {{ if .storelink }}
-                                  <li>{{ with $.Site.Params.bios.modal.storelink }}{{.}}: {{ end }}
-                                      <strong><a href="#">{{ .storelink }}</a></strong>
-                                  </li>
-                              {{ end }}
-                                {{ if .client }}
-                                    <li>{{ with $.Site.Params.bios.modal.client }}{{.}}: {{ end }}
-                                        <strong><a href="{{ with .clientLink }}{{ . }}{{ else }}#{{ end }}">{{ .client }}</a></strong>
-                                    </li>
-                                {{ end }}
-                                {{ if .date }}
-                                    <li>{{ with $.Site.Params.bios.modal.date }}{{.}}: {{ end }}
-                                        <strong><a href="#">{{ .date }}</a></strong>
-                                    </li>
-                                {{ end }}
-                            </ul>
-                        {{ end }}
-                        {{ with $.Site.Params.bios.modal.buttonText }}
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            {{ with .title }}
+            <h2>{{ . }}</h2>
+            {{ end }}
+            {{ if and .title .role }}
+            <hr class="star-primary">
+            {{ end }}
+            <img src="../img/bios/{{ .img }}" class="img-responsive img-centered" alt="">
+            <hr class="star-primary">
+            {{ with .biography }}
+            <p>{{ . | markdownify }}</p>
+            {{ end }}
+            <hr class="star-primary">
+            {{ with .packaging }}
+            <p>{{ . | markdownify }}</p>
+            {{ end }}
+            <hr class="star-primary">
+            <p>Ingredients:</p>
+            {{ with .ingredients }}
+            <p>{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with $.Site.Params.bios.modal.buttonText }}
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 {{ end }}

@@ -89,6 +89,13 @@ googleAnalytics = "UA-120221892-1"
         category = "Category"
         buttonText = "Close"
 
+				# bios modals
+			[params.bios.modal]
+						title = "Title"
+						role = "Role"
+						biography = "Biography"
+						buttonText = "Close"
+
     # Aside section
 	[params.aside]
 		headline = "Let us take some of the guesswork out of raw food with our high quality Canadian sourced meals"
