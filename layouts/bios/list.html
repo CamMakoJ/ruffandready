@@ -5,20 +5,18 @@
   {{ partial "head.html" . }}
 </head>
 
+
+
 <body id="page-top">
   {{ partial "nav-off-home.html" . }}
   {{ partial "header-space.html" . }}
   <main>
+
     <div>
       <h1>Meet The Team</h1>
-      <ul>
-        <!-- Renders the list-bio.html content view for each content/posts/*.md -->
-        {{ range .Pages }}
-        {{ .Render "list-bio"}}
-        {{ end }}
-      </ul>
 
-    </div>
+      {{ partial "bios.html" . }}
+
   </main>
 </body>
 {{ partial "js.html" . }}
