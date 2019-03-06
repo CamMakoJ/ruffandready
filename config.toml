@@ -21,13 +21,11 @@ googleAnalytics = "UA-120221892-1"
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 
-
 	name = "Ruff'n'Ready"
 	description = "Raw Food Nutrition"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
-
 
 	# Navigation
 	[params.navigation]
@@ -39,12 +37,11 @@ googleAnalytics = "UA-120221892-1"
 			portfolio = "Products"
 			contact   = "Contact"
 
-
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "The best raw food for your pet"
-		subtitle   = "Ruff'n'Ready takes the guesswork out of raw food."
+		slogan     = "We go the extra mile to make your pet smile"
+		subtitle   = "Providing raw proteins for your pet of the highest quality at an affordable price"
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
@@ -54,7 +51,11 @@ googleAnalytics = "UA-120221892-1"
 			name     = "Meet The Team"
 			subtitle = ""
 
-
+			# Meet The Team section
+			[params.info]
+				# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+				name     = "Why we started Ruff'n'Ready"
+				subtitle = ""
 
 	# About section
 	[params.about]
@@ -88,7 +89,6 @@ googleAnalytics = "UA-120221892-1"
           title = "Made with Love"
           description = "We love our pets and feed them the best proteins we can get!"
 
-
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
@@ -108,10 +108,9 @@ googleAnalytics = "UA-120221892-1"
 		headline = "Let us take some of the guesswork out of raw food with our high quality Canadian sourced meals"
 
 		[params.aside.button]
-			text = "Coming Soon - Sign up Today"
+			text = "Find Out More"
 			## Change this back to - link = "http://ruffandready.bigcartel.com" once site live also change button to Order Now
-			link = "https://mailchi.mp/bd7ddacd2cea/ruffnready-coming-soon"
-
+			link = "/info"
 
 	# Contact section
 	[params.contact]

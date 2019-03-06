@@ -34,5 +34,10 @@
   </div>
 </div>
 <br>
+
+{{ if .Site.Params.contact }}
+    {{ partial "contact.html" . }}
+{{ end }}
+
 </body>
 {{ partial "js.html" . }}
