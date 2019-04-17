@@ -115,7 +115,7 @@ googleAnalytics = "UA-120221892-1"
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your order but have a few questions? Let us know!"
+		description = "Are you Ruff'n'Ready but still have a few questions? Let us know!"
 		phone = "403-461-5998"
 		email = "info@ruffnready.ca"
 
