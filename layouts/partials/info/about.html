@@ -1,0 +1,21 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section class="bg-primary" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        {{ with .Site.Params.info.name }}
+        <h2 class="section-heading">{{ . }}</h2>
+        {{ end }}
+          <img src="/img/info/main.jpg" class="img-responsive img-centered" alt="Ruff'n'Ready Founders">
+        <hr class="light">
+        <p class="text-faded">We've often wondered what’s in the pet food were buying for our pets and where is it being made. Our mission is to provide High Quality, Raw Proteins, made in a facility you’d be comfortable buying products for your
+          family to consume.
+          If words like Antibiotic free, No added hormones and cage free are of interest to you then you should have a closer look at Ruff'n'Ready Pet Foods as they align to your standards.
+          Our ingredient list is clean, we have nothing to hide, transparent like our bag.
+          Why pay for fruit and vegetables at protein prices when you can add your own trusted ingredients that compliments your pets nutritional requirements.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>

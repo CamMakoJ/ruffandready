@@ -1,0 +1,35 @@
+{{ "<!-- Bios Modals -->" | safeHTML }}
+{{ range .Site.Data.bios }}
+<div class="portfolio-modal modal fade" id="biosModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            {{ with .title }}
+            <h2>{{ . }}</h2>
+            {{ end }}
+            {{ if and .title .role }}
+            <hr class="star-primary">
+            {{ end }}
+            <img src="../img/bios/{{ .img }}" class="img-responsive img-centered" alt="">
+            <hr class="star-primary">
+            {{ with .biography }}
+            <p>{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with $.Site.Params.bios.modal.buttonText }}
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

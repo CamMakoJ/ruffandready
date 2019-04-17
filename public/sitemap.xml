@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/bios/</loc>
+  </url>
+  
+  <url>
+    <loc>/info/</loc>
+  </url>
+  
+  <url>
     <loc>/temp/</loc>
   </url>
   

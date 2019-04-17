@@ -6,10 +6,15 @@
 <script src="{{ "/js/jquery.easing.min.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/jquery.fittext.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/wow.min.js" | relURL }}" type="text/javascript"></script>
+
+
+<!-- GOogles Maps JS stuff add back if you awnt the map later
 {{ if .Site.Params.location }}
 <script src="//maps.googleapis.com/maps/api/js?key={{ .Site.Params.location.maps_api_key }}&v=3.exp" type="text/javascript"></script>
 <script src="{{ "/js/hpneo.gmaps.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/gmaps.init.js" | relURL }}" type="text/javascript"></script>
 {{ end }}
+-->
+
 {{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
 <script src="{{ "/js/creative.js" | relURL }}" type="text/javascript"></script>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body id="page-top">
+  {{ partial "nav-off-home.html" . }}
+
+  <div id="hero" class="wrap">
+    <h1>{{.Title }}</h1>
+    <p>{{.Params.role}}</p>
+  </div>
+  <ul>
+    {{ .Content }}
+  </ul>
+
+  </body>
