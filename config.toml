@@ -108,9 +108,19 @@ googleAnalytics = "UA-120221892-1"
 		headline = "Let us take some of the guesswork out of raw food with our high quality Canadian sourced meals"
 
 		[params.aside.button]
-			text = "Find Out More"
-			## Change this back to - link = "http://ruffandready.bigcartel.com" once site live also change button to Order Now
+			text = "Why Ruff'n'Ready"
 			link = "/info"
+
+			[[params.aside.list]]
+					icon = "fa-leaf"
+					title = "Fruits and Veggies"
+					description = "Info on diversifying your pets diet"
+					link = "/food-info"
+			[[params.aside.list]]
+					icon = "fa-balance-scale"
+					title = "Food Calculator"
+					description = "Info on diversifying your pets diet"
+				  link = "/food-calc"
 
 	# Contact section
 	[params.contact]

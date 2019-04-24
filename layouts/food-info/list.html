@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+{{ partial "nav-off-home.html" . }}
+
+<br>
+<br>
+
+<body>
+  <div id="container">
+
+    <h1>Ruff'n'Ready Food Information</h1>
+
+    <h3>Stay tuned for more information</h3>
+</div>
+    {{ if .Site.Params.aside }}
+        {{ partial "info/aside.html" . }}
+    {{ end }}
+
+{{ if .Site.Params.contact }}
+{{ partial "contact.html" . }}
+{{ end }}
+
+</body>
+{{ partial "js.html" . }}
