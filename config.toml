@@ -60,7 +60,7 @@ googleAnalytics = "UA-120221892-1"
 	# About section
 	[params.about]
 		headline    = "We go the extra mile to make your pet smile!"
-		description = "We are constantly searching out the finest ingredients for 100% Protein meals <br>Your furry friend deserves the best!"
+		description = "We are constantly searching out the finest ingredients for 100% protein meals<br>because your furry friend deserves the best!"
 		buttonText  = "Meet the Team!"
 		content =  "\"Ruff'n'Ready is Calgary's premiere raw food provider. We offer complete meal packages that keep things healthy and exciting for your pet\""
 		logo = "/img/ruffandready_notext.png"
@@ -72,7 +72,7 @@ googleAnalytics = "UA-120221892-1"
         [[params.services.list]]
             icon = "fa-cutlery"
             title = "Quality Food"
-            description = "We use diverse and top quality ingredients. All our food is also 100% protein"
+            description = "We use diverse and top quality ingredients. All our food is 100% protein"
 
         [[params.services.list]]
 					icon = "fa-list"
@@ -87,7 +87,7 @@ googleAnalytics = "UA-120221892-1"
         [[params.services.list]]
           icon = "fa-heart"
           title = "Made with Love"
-          description = "We love our pets and feed them the best proteins we can get!"
+          description = "We love our pets and feed them the best proteins we can source!"
 
     # Portfolio modals
 	[params.portfolio.modal]
