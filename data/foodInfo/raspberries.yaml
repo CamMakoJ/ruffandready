@@ -1,0 +1,9 @@
+modalID: 11
+name: Raspberries
+img: 11.jpg
+description: "They should be given in moderation as they contain very small amounts of naturally occurring sweetener called xylitol in large amount could be fatal"
+benefits:
+  - "Low in sugar"
+  - "Fiber"
+  - "Anti-inflammatory properties"
+nutrition: Vitamin C

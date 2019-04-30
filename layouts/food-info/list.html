@@ -9,19 +9,33 @@
 <br>
 <br>
 
-<body>
-  <div id="container">
-
-    <h1>Ruff'n'Ready Food Information</h1>
-
-    <h3>Stay tuned for more information</h3>
-</div>
-    {{ if .Site.Params.aside }}
-        {{ partial "info/aside.html" . }}
+<div class="header-content-inner">
+  <div>
+    {{ with .Site.Params.foodInfo.name }}
+    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.foodInfo.name .Site.Params.foodInfo.description }}
+    <hr> {{ end }} {{ with .Site.Params.foodInfo.benefits }}
+    <p>{{ . | markdownify }}</p>
     {{ end }}
+  </div>
+</div>
+</header>
+
+
+<main>
+  <div>
+    {{ partial "food-info.html" . }}
+    {{ partial "food-info-modals.html" . }}
+</main>
+<br>
+<br>
+<div class="container text-center">
+  <div class="call-to-action">
+    <a href="/" class="btn btn-primary btn-xl">Home</a>
+  </div>
+</div>
 
 {{ if .Site.Params.contact }}
-{{ partial "contact.html" . }}
+    {{ partial "contact.html" . }}
 {{ end }}
 
 </body>

@@ -96,12 +96,20 @@ googleAnalytics = "UA-120221892-1"
         category = "Category"
         buttonText = "Close"
 
-				# bios modals
+  	# bios modals
 			[params.bios.modal]
 						title = "Title"
 						role = "Role"
 						biography = "Biography"
 						buttonText = "Close"
+
+		# food-info modals
+		[params.foodInfo.modal]
+			name = "Name"
+			description = "Description"
+			benefits = "Benefits"
+			nutrition = "Nutrition"
+			buttonText = "Close"
 
     # Aside section
 	[params.aside]

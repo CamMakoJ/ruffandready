@@ -1,0 +1,8 @@
+modalID: 8
+name: Oranges
+img: 8.jpg
+description: "Make sure you only feed the fleshy part of the fruit as the stem, peel, seeds and leafs contain oil that is poisonous"
+benefits:
+  - "Helps their immune system"
+  - "Helps flushes toxins out of their body"
+nutrition: Vitamin C
