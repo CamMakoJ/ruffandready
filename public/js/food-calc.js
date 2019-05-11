@@ -8,7 +8,7 @@ function calculateFood() {
     var total = Math.round(((dogWeight * activityLevel) * 1000) * dogsAge);
   } else {
     //Imperial Math
-    var total = Math.round((((dogWeight * 2.20462) * activityLevel) * 16) * dogsAge);
+    var total = Math.round(((dogWeight * activityLevel) * 16) * dogsAge);
     total = total.toFixed(1);
   }
   document.getElementById("totalFood").style.display = "block";
