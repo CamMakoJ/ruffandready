@@ -6,10 +6,13 @@
 </head>
 {{ partial "nav-off-home.html" . }}
 
-<br>
-<br>
+<div class="container" style="padding-top: 75px">
+  <hr>
+<h3>Your pet’s diet should be <strong>nutritionally balanced</strong> low in fat and appropriate for your pet’s life stage, adding fruits and vegetables to your pets diet will help ensure that they are getting plenty of the right <strong>healthy nutrients</strong>. This will help them stay strong, healthy and boost their immune system. Pet treats tend to be high in calories so fruit and vegetables are a <strong>healthier alternative</strong>.</h3>
+</div>
+<hr>
 
-<div class="header-content-inner">
+<div class="header-content-inner" style="padding-top: 25px">
   <div>
     {{ with .Site.Params.foodInfo.name }}
     <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.foodInfo.name .Site.Params.foodInfo.description }}

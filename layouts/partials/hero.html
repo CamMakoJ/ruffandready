@@ -13,6 +13,24 @@
         <p>{{ . | markdownify }}</p>
         {{ end }} {{ with .Site.Params.hero.buttonText }}
         <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a> {{ end }}
+
+
+
+        <div class="row align-items-center" style="padding-top: 35px">
+          {{ range .Site.Params.hero.list }}
+          <div class="col-6 col-md-4">
+            <div class="service-box">
+              <i class="fa fa-4x {{ .icon }} bounceIn text-secondary"></i>
+              <h3>{{ .title }}</h3>
+              {{ with .headline }}
+              <p class="text-muted">{{ . }}</p>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+
       </div>
     </div>
 </header>

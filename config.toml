@@ -45,6 +45,22 @@ googleAnalytics = "UA-120221892-1"
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
+		[[params.hero.list]]
+			icon = "fa-trophy"
+			title = "Best Quality"
+			headline = "We have chosen to work exclusively with provincially or federally inspected facilities regulated to human standards"
+
+		[[params.hero.list]]
+			icon = "fa-money"
+			title = "Value"
+			headline = "Our products are all 100% protein so your not paying for frozen fruits and veggies"
+
+			[[params.hero.list]]
+				icon = "fa-map"
+				title = "Local Ingredients"
+				headline = "We locally source and process only the best ingredients we can find"
+
+
 		# Meet The Team section
 		[params.bio]
 			# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
@@ -72,17 +88,17 @@ googleAnalytics = "UA-120221892-1"
         [[params.services.list]]
             icon = "fa-cutlery"
             title = "Quality Food"
-            description = "We use diverse and top quality ingredients. All our food is 100% protein"
+            description = "We use diverse, top quality, and local ingredients. All our food is 100% protein"
 
         [[params.services.list]]
 					icon = "fa-list"
 					title = "Meal Planning"
-					description = "Keep meals exciting and healthy with diverse mixed packs"
+					description = "Keep meals exciting and healthy with our diverse protein selection."
 
 				[[params.services.list]]
 					icon = "fa-certificate"
 					title = "Certified Facilities"
-					description = "Our facilities are fully certified"
+					description = "Our facilities are all provincially or federally certified to human standards"
 
         [[params.services.list]]
           icon = "fa-heart"
