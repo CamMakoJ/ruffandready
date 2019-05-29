@@ -12,7 +12,9 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
-
+        {{ if .Site.Params.highlights }}
+            {{ partial "highlights.html" . }}
+        {{ end }}
 
         {{ if .Site.Params.about }}
             {{ partial "about.html" . }}

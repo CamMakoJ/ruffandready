@@ -1,0 +1,11 @@
+modalID: 19
+name: Carrots
+img: 19.jpg
+description: "crunching them is great for your pet’s teeth"
+benefits:
+  - "High in Fiber"
+  - "Low Calories"
+  - "Helps clean teeth"
+  - "Healthy Skin"
+  - "Vision Support"
+nutrition: Beta-carotene

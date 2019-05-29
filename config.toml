@@ -45,21 +45,25 @@ googleAnalytics = "UA-120221892-1"
 		buttonText = "Find out more"
 		logo = "/img/ruffandready.png"
 
-		[[params.hero.list]]
-			icon = "fa-trophy"
-			title = "Best Quality"
-			headline = "We have chosen to work exclusively with provincially or federally inspected facilities regulated to human standards"
 
-		[[params.hero.list]]
-			icon = "fa-money"
-			title = "Value"
-			headline = "Our products are all 100% protein so your not paying for frozen fruits and veggies"
 
-			[[params.hero.list]]
-				icon = "fa-map"
-				title = "Local Ingredients"
-				headline = "We locally source and process only the best ingredients we can find"
+#Highlights
+[params.highlights]
+title = "Highlights"
+[[params.highlights.list]]
+	icon = "fa-trophy"
+	title = "Best Quality"
+	headline = "We work exclusively with inspected facilities regulated to human standards"
 
+[[params.highlights.list]]
+	icon = "fa-money"
+	title = "Value"
+	headline = "Our products are all 100% protein so your not paying for frozen fruits and veggies"
+
+	[[params.highlights.list]]
+		icon = "fa-map"
+		title = "Local Ingredients"
+		headline = "We locally source and process only the best ingredients we can find"
 
 		# Meet The Team section
 		[params.bio]
