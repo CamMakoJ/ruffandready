@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  {{ partial "head.html" . }}
+
+</head>
+{{ partial "nav-off-home.html" . }}
+
+<br>
+<br>
+
+<div class="header-content-inner">
+  <div>
+    <h1 class="title">Where to find Ruff'n'Ready</h1>
+  </div>
+</div>
+</header>
+
+
+
+
+<main>
+  <div class="container">
+    {{ range .Site.Data.whereToBuy }}
+    <div class="card">
+    <!--    <img src="..." class="card-img-top" alt="...">    -->
+        <div class="container text-center">
+          <h3 class="card-title">{{ .store }}</h3>
+          <p class="card-text">{{ .Phone }}</p>
+          <a href="{{ .MapLink }}"><p class="card-text">{{ .Address }}</p></a>
+          <a href="{{ .Website }}"><p class="card-text"><small>{{ .Website }}</p></a>
+        </div>
+        {{ end }}
+</div>
+</main>
+
+
+
+<div class="container text-center" style="padding-top: 50px">
+  <div class="call-to-action">
+    <a href="/#contact" class="btn btn-primary btn-xl">Home</a>
+  </div>
+</div>
+
+{{ if .Site.Params.contact }}
+    {{ partial "contact.html" . }}
+{{ end }}
+
+</body>
+{{ partial "js.html" . }}

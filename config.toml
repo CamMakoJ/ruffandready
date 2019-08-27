@@ -145,17 +145,23 @@ title = "Highlights"
 					description = "Info on diversifying your pets diet"
 					link = "/food-info"
 			[[params.aside.list]]
+					icon = "fa-shopping-basket"
+					title = "Where to Buy"
+					description = "Where to buy Ruff'n'Ready in store"
+					link = "/where-to-buy"
+			[[params.aside.list]]
 					icon = "fa-balance-scale"
 					title = "Food Calculator"
-					description = "Info on diversifying your pets diet"
+					description = "Calculate how much to feed your pet"
 				  link = "/food-calc"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Are you Ruff'n'Ready but still have a few questions? Let us know!"
-		phone = "403-461-5998"
+		phone = "403-461-5998 | 403-804-8188"
 		email = "info@ruffnready.ca"
+		address = "PO Box 87054 - Douglas Square Calgary, Alberta T2Z-3V7"
 
 	# Google Maps section - removed for now
 	 [params.location]
