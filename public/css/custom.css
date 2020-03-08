@@ -42,3 +42,26 @@ img {
 .container {
   padding: 2px 16px;
 }
+
+
+#nutrition-info {
+  font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+#nutrition-info td, #nutrition-info th {
+  border: 2px solid #eb3812;
+  padding: 8px;
+}
+#nutrition-info tr:nth-child(even){background-color: #f2f2f2;}
+#nutrition-info tr:hover {background-color: #ddd;}
+#nutrition-info th {
+  eb3812
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #eb3812;
+  color: white;
+}
