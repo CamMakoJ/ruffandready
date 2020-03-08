@@ -17,21 +17,119 @@
             {{ end }}
             {{ if and .title .description }}
             <hr class="star-primary">
-                                    <p>Information:</p>
+
             {{ end }}
             <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
             {{ with .description }}
             <p>{{ . | markdownify }}</p>
             {{ end }}
             <hr class="star-primary">
-            <p>Package Options:</p>
+            <p><b>Package Options:</b></p>
             {{ with .packaging }}
             <p>{{ . | markdownify }}</p>
             {{ end }}
             <hr class="star-primary">
-            <p>Ingredients:</p>
+            <p><b>Ingredients:</b></p>
             {{ with .ingredients }}
             <p>{{ . | markdownify }}</p>
+            {{ end }}
+
+            {{ if .nutrition }}
+            <hr class="star-primary">
+            <p><b>Nutritional Information:</b></p>
+
+            <table id="nutrition-info">
+              <tr>
+                <th>Component</th>
+                <th>Percentage (%)</th>
+              </tr>
+              {{ if .moisture }}
+              <tr>
+                <td>Moisture</td>
+                <td>{{.moisture}}</td>
+              </tr>
+              {{ end }}
+              {{ if .ash }}
+              <tr>
+                <td>Ash</td>
+                <td>{{.ash}}</td>
+              </tr>
+              {{ end }}
+              {{ if .protein }}
+              <tr>
+                <td>Protein</td>
+                <td>{{.protein}}</td>
+              </tr>
+              {{ end }}
+              {{ if .fat }}
+              <tr>
+                <td>Fat</td>
+                <td>{{.fat}}</td>
+              </tr>
+              {{ end }}
+              {{ if .calcium }}
+              <tr>
+                <td>Calcium</td>
+                <td>{{.calcium}}</td>
+              </tr>
+              {{ end }}
+              {{ if .phosphorous }}
+              <tr>
+                <td>Phosphorous</td>
+                <td>{{.phosphorous}}</td>
+              </tr>
+              {{ end }}
+              {{ if .magnesium }}
+              <tr>
+                <td>Magnesium</td>
+                <td>{{.magnesium}}</td>
+              </tr>
+              {{ end }}
+              {{ if .fibre }}
+              <tr>
+                <td>Fibre</td>
+                <td>{{.fibre}}</td>
+              </tr>
+              {{ end }}
+              {{ if .potassium }}
+              <tr>
+                <td>Potassium</td>
+                <td>{{.potassium}}</td>
+              </tr>
+              {{ end }}
+              {{ if .sodium }}
+              <tr>
+                <td>Sodium</td>
+                <td>{{.sodium}}</td>
+              </tr>
+              {{ if .copper }}
+              <tr>
+                <td>Copper</td>
+                <td>{{.copper}}</td>
+              </tr>
+              {{ end }}
+              {{ if .iron }}
+              <tr>
+                <td>Iron</td>
+                <td>{{.iron}}</td>
+              </tr>
+              {{ end }}
+              {{ if .manganese }}
+              <tr>
+                <td>Manganese</td>
+                <td>{{.manganese}}</td>
+              </tr>
+              {{ end }}
+              {{ if .zinc }}
+              <tr>
+                <td>Zinc</td>
+                <td>{{.zinc}}</td>
+              </tr>
+              {{ end }}
+            </table>
+            {{ end }}
+            <br>
+
             {{ end }}
 
             {{ if or .client .date .storelink }}
