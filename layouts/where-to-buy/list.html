@@ -17,22 +17,25 @@
 </div>
 </header>
 
-
-
-
 <main>
-  <div class="container">
+  <div class="container" style="padding-left: 25px;padding-right: 25px;">
     {{ range .Site.Data.whereToBuy }}
-    <div class="card">
-    <!--    <img src="..." class="card-img-top" alt="...">    -->
-        <div class="container text-center">
+    <div>
+      <div class="card">
+        <div class="card container text-center">
           <h3 class="card-title">{{ .store }}</h3>
           <p class="card-text">{{ .Phone }}</p>
-          <a href="{{ .MapLink }}"><p class="card-text">{{ .Address }}</p></a>
-          <a href="{{ .Website }}"><p class="card-text"><small>{{ .Website }}</p></a>
+          <a href="{{ .Website }}">
+            <img class="card-img-top" src="../img/where-to-buy/{{ .img }}" width="125"> </img></a>
+          <a href="{{ .MapLink }}">
+            <p class="card-text">{{ .Address }}</p>
+          </a>
+          <a href="{{ .Website }}">
+            <p class="card-text"><small>{{ .Website }}</p>
+          </a>
         </div>
         {{ end }}
-</div>
+      </div>
 </main>
 
 
@@ -44,7 +47,7 @@
 </div>
 
 {{ if .Site.Params.contact }}
-    {{ partial "contact.html" . }}
+{{ partial "contact.html" . }}
 {{ end }}
 
 </body>

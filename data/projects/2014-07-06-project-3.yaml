@@ -1,11 +1,20 @@
 modalID: 3
 title: Wild Pacific Sockeye
 #date: 2014-07-05
-img: 3.jpg
+img: salmon.jpg
 #client: Start Bootstrap
 clientLink: "#"
 category: Ruff'n'Ready
 description: Wild Pacific Sockeye salmon is from BC and processed in a federally inspected facility.
-packaging: Package 10 x 1 lb of 2 oz patties
+packaging: 2 oz portions packaged in 8 x 4 lb case
 ingredients: Wild Pacific Sockeye salmon meat, bone, and collar
 #storelink: www.LinkToBigCartel.ca
+nutrition: 1
+moisture: '66.60'
+protein: 18.35
+fat: 9.35
+calcium: 1.66
+phosphorous: 0.95
+fibre: 0.77
+potassium: 0.22
+sodium: 0.06

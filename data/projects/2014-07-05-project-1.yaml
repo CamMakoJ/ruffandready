@@ -1,20 +1,21 @@
 modalID: 1
 title: Beef
 #date: 2014-07-05
-img: 1.jpg
+img: beef.jpg
 #client: Start Bootstrap
 #clientLink: "#"
 category: Ruff'n'Ready
-description: 100% Alberta made and sourced.
-packaging: Package of 10 x 4 lb | Package of 2 x 10 lb
-ingredients: 65% Beef Trim, 30% Heart Kidney & Liver, 5% Eggshell (Natural source of Calcium & Nutrients)
+description: 100% Alberta made and sourced 100% protein meal. Processed in provincially inspected facilities.
+packaging: Package of 8 x 4 lb case | Package of 1 x 10 lb case
+ingredients: 55% Beef trim, 35-40% organ meats (Heart, Kidney & Liver), 5-7% sterilized pulverized eggshell* (Natural source of calcium & other nutrients)
+note: '*3% or fewer of pets that have chicken allergies are also allergic to eggshell (Always check with your veterinarian before changing your pets diet)'
 #storelink: www.LinkToBigCartel.ca
 nutrition: 1
-moisture: 66.60
-protein: 18.35
-fat: 9.35
-calcium: 1.66
-phosphorous: 0.95
-fibre: 0.77
-potassium: 0.22
-sodium: 0.06
+moisture: 60.13
+protein: 15.95
+fat: 17
+calcium: 1.9
+phosphorous: 0.9
+fibre: 0.24
+potassium: 0.18
+sodium: 0.07
