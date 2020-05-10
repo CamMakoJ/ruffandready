@@ -12,6 +12,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
+
             {{ with .title }}
             <h2>{{ . }}</h2>
             {{ end }}
@@ -32,6 +33,12 @@
             <p><b>Ingredients:</b></p>
             {{ with .ingredients }}
             <p>{{ . | markdownify }}</p>
+            {{ end }}
+
+            {{ if .serving }}
+            <hr class="star-primary">
+            <p><b>Serving Suggesions:</b></p>
+            <p>{{ .serving | markdownify }}</p>
             {{ end }}
 
             {{ if .note }}
@@ -134,7 +141,7 @@
             </table>
             {{ end }}
             <br>
-
+    <p><i>All raw food nutritionals are analysed and verified by independant labs to ensure quality and consistency</i></p>
             {{ end }}
 
             {{ if or .client .date .storelink }}

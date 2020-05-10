@@ -51,9 +51,9 @@ googleAnalytics = "UA-120221892-1"
 [params.highlights]
 title = "Highlights"
 [[params.highlights.list]]
-	icon = "fa-trophy"
-	title = "Best Quality"
-	headline = "We work exclusively with inspected facilities regulated to human standards in both Alberta and British Columbia"
+	icon = "fa-search"
+	title = "Inspected Quality"
+	headline = "Ruff'n'Ready is made from human grade raw food in provincially or federally inspected human grade production facilities in Alberta and British Columbia"
 
 [[params.highlights.list]]
 	icon = "fa-money"
@@ -82,7 +82,7 @@ title = "Highlights"
 		headline    = "We go the extra mile to make your pet smile!"
 		description = "We are constantly searching out the finest ingredients for 100% raw food protein meals<br>because your furry friend deserves the best!"
 		buttonText  = "Meet the Team!"
-		content =  "\"Ruff'n'Ready is Alberta's premiere raw food provider. We offer complete raw food meal packages that keep things healthy and exciting for your pet\""
+		content =  "\"Ruff'n'Ready is Alberta's premiere raw dog & cat food provider. We offer complete raw food meal packages that keep things healthy and exciting for your pet\""
 		logo = "/img/ruffandready_notext.png"
 
 	# Service section
@@ -92,12 +92,12 @@ title = "Highlights"
         [[params.services.list]]
             icon = "fa-cutlery"
             title = "Quality Food"
-            description = "We use diverse, top quality, and local ingredients. All our raw food is 100% protein"
+            description = "We use diverse, top quality, and local ingredients. All our raw food is from 100% protein sources"
 
         [[params.services.list]]
 					icon = "fa-list"
 					title = "Meal Planning"
-					description = "Keep meals exciting and healthy with our diverse protein based raw food selections."
+					description = "Keep meals exciting and healthy for your dog or cat with our diverse protein based raw food selections."
 
 				[[params.services.list]]
 					icon = "fa-certificate"
@@ -107,7 +107,7 @@ title = "Highlights"
         [[params.services.list]]
           icon = "fa-heart"
           title = "Made with Love"
-          description = "We love our pets and feed them the best proteins we can source!"
+          description = "We love our pets and feed them the best raw proteins we can source!"
 
     # Portfolio modals
 	[params.portfolio.modal]
@@ -152,7 +152,7 @@ title = "Highlights"
 			[[params.aside.list]]
 					icon = "fa-balance-scale"
 					title = "Food Calculator"
-					description = "Calculate how much to feed your pet"
+					description = "Calculate how much to feed your dog"
 				  link = "/food-calc"
 
 	# Contact section
