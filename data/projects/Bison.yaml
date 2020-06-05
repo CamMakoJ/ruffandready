@@ -1,7 +1,8 @@
 modalID: 4
 title: Bison
 #date: 2014-07-05
-img: bison.jpg
+imgA: bison.jpg
+imgB: bisonB.jpg
 #client: Start Bootstrap
 clientLink: "#"
 category: Ruff'n'Ready

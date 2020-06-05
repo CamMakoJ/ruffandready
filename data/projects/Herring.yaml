@@ -1,7 +1,8 @@
 modalID: 9
 title: Herring
 #date: 2014-07-05
-img: herring.jpg
+imgA: herring.jpg
+imgB: herring.jpg
 #client: Start Bootstrap
 clientLink: "#"
 category: Ruff'n'Ready

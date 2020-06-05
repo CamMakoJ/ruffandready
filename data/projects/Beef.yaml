@@ -1,7 +1,8 @@
 modalID: 1
 title: Beef
 #date: 2014-07-05
-img: beef.jpg
+imgA: beef.jpg
+imgB: beefB.jpg
 #client: Start Bootstrap
 #clientLink: "#"
 category: Ruff'n'Ready

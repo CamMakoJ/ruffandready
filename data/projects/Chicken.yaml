@@ -1,7 +1,8 @@
 modalID: 2
 title: Chicken
 #date: 2014-07-05
-img: chicken.jpg
+imgA: chicken.jpg
+imgB: chickenB.jpg
 #client: Start Bootstrap
 clientLink: "#"
 category: Ruff'n'Ready

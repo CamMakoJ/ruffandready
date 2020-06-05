@@ -1,7 +1,8 @@
 modalID: 6
 title: Beef & Chicken Combo
 #date: 2014-07-05
-img: combo.jpg
+imgA: combo.jpg
+imgB: combo.jpg
 #client: Start Bootstrap
 clientLink: "#"
 category: Ruff'n'Ready

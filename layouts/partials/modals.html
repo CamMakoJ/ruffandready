@@ -20,19 +20,21 @@
             <hr class="star-primary">
 
             {{ end }}
-            <img src="img/portfolio/{{ .img }}" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/{{ .imgB }}" class="img-responsive img-centered" alt="">
             {{ with .description }}
             <p>{{ . | markdownify }}</p>
             {{ end }}
+
+            {{ if .packaging }}
             <hr class="star-primary">
             <p><b>Package Options:</b></p>
-            {{ with .packaging }}
-            <p>{{ . | markdownify }}</p>
+            <p>{{ .packaging | markdownify }}</p>
             {{ end }}
             <hr class="star-primary">
+
+            {{ if .ingredients}}
             <p><b>Ingredients:</b></p>
-            {{ with .ingredients }}
-            <p>{{ . | markdownify }}</p>
+            <p>{{ .ingredients | markdownify }}</p>
             {{ end }}
 
             {{ if .serving }}
