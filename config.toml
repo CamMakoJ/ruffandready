@@ -123,6 +123,11 @@ title = "Highlights"
 						biography = "Biography"
 						buttonText = "Close"
 
+
+		# food-info selections
+		[params.foodInfo]
+		title = "Meal Planning"
+
 		# food-info modals
 		[params.foodInfo.modal]
 			name = "Name"
@@ -154,6 +159,11 @@ title = "Highlights"
 					title = "Food Calculator"
 					description = "Calculate how much to feed your dog"
 				  link = "/food-calc"
+			[[params.aside.list]]
+					icon = "fa-clipboard"
+					title = "Meal Planning"
+					description = "Organized meal plans for optimized nutrition"
+					link = "/meal-plan"
 
 	# Contact section
 	[params.contact]

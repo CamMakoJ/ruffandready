@@ -7,7 +7,7 @@
 {{ partial "nav-off-home.html" . }}
 
 <div class="container" style="padding-top: 75px">
-  {{ with .Site.Params.foodInfo.title }}
+  {{ with .Site.Params.mealPlan.name }}
   <h1 class="title">{{ . | markdownify  }}</h1>
   {{ end }}
 </div>
@@ -22,9 +22,9 @@
 
 <div class="header-content-inner" style="padding-top: 25px">
   <div>
-    {{ with .Site.Params.foodInfo.name }}
-    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.foodInfo.name .Site.Params.foodInfo.description }}
-    <hr> {{ end }} {{ with .Site.Params.foodInfo.benefits }}
+    {{ with .Site.Params.mealPlan.name }}
+    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.mealPlan.name .Site.Params.mealPlan.ingredients }}
+    <hr> {{ end }} {{ with .Site.Params.mealPlan.description }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
   </div>
@@ -34,8 +34,8 @@
 
 <main>
   <div>
-    {{ partial "food-info.html" . }}
-    {{ partial "food-info-modals.html" . }}
+    {{ partial "meal-plan.html" . }}
+    {{ partial "meal-plan-modals.html" . }}
 </main>
 <br>
 <br>

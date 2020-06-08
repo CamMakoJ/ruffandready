@@ -6,20 +6,14 @@
 </head>
 {{ partial "nav-off-home.html" . }}
 
-<br>
-<br>
-
-<div class="header-content-inner">
-  <div>
-    {{ with .Site.Params.bio.name }}
-    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.bio.name .Site.Params.bio.subtitle }}
-    <hr> {{ end }} {{ with .Site.Params.bio.subtitle }}
-    <p>{{ . | markdownify }}</p>
-    {{ end }}
-  </div>
+<div class="container" style="padding-top: 75px">
+  {{ with .Site.Params.bio.name }}
+  <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.bio.name .Site.Params.bio.subtitle }}
+   {{ end }} {{ with .Site.Params.bio.subtitle }}
+  <p>{{ . | markdownify }}</p>
+  {{ end }}
+  <hr>
 </div>
-</header>
-
 
 <main>
   <div>
@@ -35,7 +29,7 @@
 </div>
 
 {{ if .Site.Params.contact }}
-    {{ partial "contact.html" . }}
+{{ partial "contact.html" . }}
 {{ end }}
 
 </body>
