@@ -2,19 +2,14 @@
     <div class="container-fluid">
         <div class="row no-gutter">
             {{ range sort .Site.Data.mealPlan "modalID"}}
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <a href="#mealPlanModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="../img/food-info/{{ .img }}" class="img-responsive" alt="">
+                        <img src="../img/meal-plan/{{ .img }}" class="img-responsive" alt="">
                         {{ if and .name .description }}
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
 <!-- this is the label -->
                                     {{ with .name }}
-                                        <div class="project-category text-faded">
-                                            {{ . }}
-                                        </div>
-                                    {{ end }}
-                                    {{ with .ingredients }}
                                         <div class="project-name">
                                             {{ . }}
                                         </div>

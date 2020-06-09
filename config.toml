@@ -126,7 +126,7 @@ title = "Highlights"
 
 		# food-info selections
 		[params.foodInfo]
-		title = "Meal Planning"
+		title = "Fruits and Vegetables"
 
 		# food-info modals
 		[params.foodInfo.modal]
@@ -135,6 +135,25 @@ title = "Highlights"
 			benefits = "Benefits"
 			nutrition = "Nutrition"
 			buttonText = "Close"
+
+			# meal-plan selections
+			[params.mealPlan]
+			title = "Meal Planning"
+			boom = "Let Ruff'n'Ready take some of the guesswork out of raw dog food for you. If your pet is healthier with the addition of fresh fruits, vegetables, and mix-ins then check out some of our example meal plans. Raw or cooked veggies and fruits added to your pet’s diet enhance their health, provide low-calorie bulk, to satiate hunger, help to clean teeth and regulate bowels"
+			boop = "These are some general guidelines to help optimize your experience when mixing in fresh addons to your Ruff'n'Ready meals:"
+			woof = "Recommended proportion is less than 5% of your pet’s daily protein portion. It is recommended that you vary your pet’s daily protein from our available sources. Repetition can lead to sensitivities and boredom"
+			snoot = "Add slowly to determine toleration, and always use moderation"
+			blip = "Blended can provide better availability for absorption. Freezing the puree in cubes helps with planning"
+			blop = "Adding the fruits and vegetables you are preparing for yourself is easy and economical. Just remember no salt or butter for your pet"
+			blob = "Remember there are fruits and vegetables which are harmful to pets the internet and our website has a wealth of information if you are in doubt"
+			brip = "Supplements such as fish or krill oil, tripe, and Spirulina are also great to add to your pet's diet and are available where you pick up Ruff'n'Ready"
+			# meal-plan modals
+			[params.mealPlan.modal]
+				name = "Name"
+				description = "Description"
+				benefits = "Benefits"
+				nutrition = "Nutrition"
+				buttonText = "Close"
 
     # Aside section
 	[params.aside]

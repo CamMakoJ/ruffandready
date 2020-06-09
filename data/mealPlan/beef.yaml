@@ -1,9 +1,23 @@
 modalID: 1
-name: Alberta Beef Meal
-img: 1.jpg
-description: yummy food
-ingredients:
-  - "High in fibre"
-  - "Low in fat"
-  - "Helps maintain Healthy bones and tissue"
-  - "Ideal snack for overweight or senior pets who may have lower metabolism"
+name: Alberta Beef
+img: beef.jpg
+description: The description of the beef meal goes here; what a great meal it looks so delicious!
+items:
+  - ingredient:
+        title: Green Beans
+        benefit: Vitamins and iron, low-calorie treat
+  - ingredient:
+        title: Carrot
+        benefit: Beta carotene, Fibre, & Vitamin A. The crunch of raw carrots helps clean teeth
+  - ingredient:
+        title: Peppers
+        benefit: Vitamin C and beta carotene
+  - ingredient:
+        title: Strawberries
+        benefit: Vitamin A, C, fibre, & enzymes to help with oral health. Higher sugar content though so moderation is advised
+  - ingredient:
+        title: Blueberries
+        benefit: Antioxidants, low in sugar, and phytonutrients which are anti-inflammatory and can enhance immunity
+  - ingredient:
+        title: Watermelon
+        benefit: Great treat raw or frozen. No rind or seeds, high water content for hydration, vitamins A, C & B6. It also contains the antioxidant lycopene

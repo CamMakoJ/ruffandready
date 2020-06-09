@@ -1,0 +1,23 @@
+modalID: 2
+name: Fresh Chicken
+img: chicken.jpg
+description: The description of the chicken meal goes here; what a great meal it looks so delicious!
+items:
+  - ingredient:
+        title: Spinach Kale & leafy greens
+        benefit: Loaded with vitamins K, A, C, antioxidants, calcium, magnesium, and iron
+  - ingredient:
+        title: Pumpkin puree fibre
+        benefit: Helps to keep your pet regular
+  - ingredient:
+        title: Cucumber
+        benefit: no carbs, fats or oils, high vitamin content K, C, B1 as well as potassium, copper, zinc, magnesium & biotin. High water content as well
+  - ingredient:
+        title: Apple
+        benefit: Vitamins A, C fibre, low in protein and fat
+  - ingredient:
+        title: Oatmeal
+        benefit: Generally safe for pets allergic to wheat, contains fibre that should be cooked with no sugar added
+  - ingredient:
+        title: Local Honey
+        benefit: helps treat allergies from local pollens, energy boost, and has antibacterial properties and anti-inflammatory qualities

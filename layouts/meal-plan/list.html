@@ -7,7 +7,7 @@
 {{ partial "nav-off-home.html" . }}
 
 <div class="container" style="padding-top: 75px">
-  {{ with .Site.Params.mealPlan.name }}
+  {{ with .Site.Params.mealPlan.title }}
   <h1 class="title">{{ . | markdownify  }}</h1>
   {{ end }}
 </div>
@@ -15,31 +15,44 @@
 <hr>
 
 <div class="container" style="padding-top: 0px">
-  <h3>Your pet’s diet should be <strong>nutritionally balanced</strong> low in fat and appropriate for your pet’s life stage, adding fruits and vegetables to your pets diet will help ensure that they are getting plenty of the right <strong>healthy
-      nutrients</strong>. This will help them stay strong, healthy and boost their immune system. Pet treats tend to be high in calories so fruit and vegetables are a <strong>healthier alternative</strong>.</h3>
+  {{ with .Site.Params.mealPlan }}
+  <h2>{{ .boom | markdownify  }}</h2>
 </div>
+{{ end }}
 <hr>
 
 <div class="header-content-inner" style="padding-top: 25px">
   <div>
     {{ with .Site.Params.mealPlan.name }}
-    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.mealPlan.name .Site.Params.mealPlan.ingredients }}
+    <h1 class="title">{{ . | markdownify  }}</h1> {{ end }} {{ if and .Site.Params.mealPlan.name .Site.Params.mealPlan.description }}
     <hr> {{ end }} {{ with .Site.Params.mealPlan.description }}
     <p>{{ . | markdownify }}</p>
     {{ end }}
   </div>
 </div>
-</header>
-
 
 <main>
   <div>
     {{ partial "meal-plan.html" . }}
     {{ partial "meal-plan-modals.html" . }}
 </main>
-<br>
-<br>
-<div class="container text-center">
+
+<hr>
+
+<div class="container" style="padding-top: 0px">
+  {{ with .Site.Params.mealPlan }}
+  <h3>{{ .boop | markdownify  }}</h3>
+  <li>{{ .woof | markdownify  }}</li>
+  <li>{{ .snoot | markdownify  }}</li>
+  <li>{{ .blip | markdownify  }}</li>
+  <li>{{ .blop | markdownify  }}</li>
+  <li>{{ .blob | markdownify  }}</li>
+  <li>{{ .brip | markdownify  }}</li>
+</div>
+{{ end }}
+<hr>
+
+<div class="container text-center" style="margin-top: 45px">
   <div class="call-to-action">
     <a href="/" class="btn btn-primary btn-xl">Home</a>
   </div>

@@ -1,0 +1,23 @@
+modalID: 4
+name: Bison
+img: bison.jpg
+description: The description of the bison meal goes here; what a great meal it looks so delicious!
+items:
+  - ingredient:
+        title: Sweet Potato
+        benefit: fibre, low in fat, B6, A, C Vitamins & Beta Carotene which is an anti-oxidant
+  - ingredient:
+        title: Kale, Spinach & leafy greens
+        benefit: Loaded with vitamins K, A, C, antioxidants, calcium, magnesium, and iron
+  - ingredient:
+        title: Carrot
+        benefit: beta carotene. Fibre Vitamin A. the crunch of raw carrots helps clean teeth
+  - ingredient:
+        title: Blueberries
+        benefit: antioxidant, low in sugar, phytonutrients which are anti-inflammatory and can enhance immunity
+  - ingredient:
+        title: Krill oil
+        benefit: Omega 3 fatty acids to support healthy skin, coat joint function, brain and heart
+  - ingredient:
+        title: Turmeric
+        benefit: can help alleviate inflammation pain and swelling in joints

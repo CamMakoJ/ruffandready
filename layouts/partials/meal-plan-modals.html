@@ -15,21 +15,45 @@
             {{ with .name }}
             <h2>{{ . }}</h2>
             {{ end }}
-            {{ if and .name .description }}
             <hr class="star-primary">
-            {{ end }}
-            <img src="../img/mealPlan/{{ .img }}" class="img-responsive img-centered" alt="">
-            <hr class="star-primary">
-            <p>Information:</p>
-            {{ with .description }}
-            <p>{{ . | markdownify }}</p>
-            {{ end }}
+            <img src="../img/meal-plan/{{ .img }}" class="img-responsive img-centered" alt="">
 
-            <hr class="star-primary">
-            <p>Ingedients:</p>
-            {{ with .ingredients }}
+            {{ with .description}}
             <p>{{ . }}</p>
             {{ end }}
+
+
+            <hr>
+
+            <div>
+              {{ $data := . }}
+              <div class="row">
+                <div class="col-xs-6">
+                  <h3>Ingredient </h3>
+
+                </div>
+                <div class="col-xs-6">
+                  <h3> Benefit </h3>
+
+                </div>
+              </div>
+              {{ range $data.items }}
+              <div class="row">
+                <div class="col col-xs-6">
+                  <hr style="width: 15px" class="align-bottom">
+                  <p> {{ .ingredient.title }} </p>
+                </div>
+                <div class="col col-xs-6">
+                  <hr style="width: 15px" class="align-bottom">
+                  <p> {{ .ingredient.benefit }} </p>
+
+                </div>
+
+              </div>
+
+              {{ end }}
+
+            </div>
 
             {{ with $.Site.Params.mealPlan.modal.buttonText }}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
