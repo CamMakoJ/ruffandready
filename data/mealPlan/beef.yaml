@@ -1,7 +1,7 @@
 modalID: 1
 name: Alberta Beef
 img: beef.jpg
-description: The description of the beef meal goes here; what a great meal it looks so delicious!
+description: A nicely marbled ground beef patty with the addition of heart, kidney, liver and calcium. Deliciously uncooked and packed with protein. your hoomans may beg for a taste!
 items:
   - ingredient:
         title: Green Beans
