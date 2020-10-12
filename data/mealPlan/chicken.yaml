@@ -1,7 +1,7 @@
-modalID: 2
+modalID: 3
 name: Fresh Chicken
 img: chicken.jpg
-description: The description of the chicken meal goes here; what a great meal it looks so delicious!
+description: An antibiotic free, all natural,  chicken meal. Packed with goodness from bone, liver and heart. A fresh  raw Alberta Free Run delight.
 items:
   - ingredient:
         title: Spinach Kale & leafy greens
