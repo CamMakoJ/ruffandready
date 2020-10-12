@@ -192,6 +192,7 @@ title = "Highlights"
 		email = "info@ruffnready.ca"
 		address = "PO Box 87054 - Douglas Square Calgary, Alberta, Canada T2Z-3V7"
 		endnote = "Ruff'n'Ready is a premium raw dog food provider sourcing and producing high quality raw foods in both Alberta and British Columbia"
+		orderForm = "https://form.jotform.com/201741366422247"
 
 	# Google Maps section - removed for now
 	 [params.location]
