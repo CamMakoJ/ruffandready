@@ -20,7 +20,7 @@
             <hr class="star-primary">
 
             {{ end }}
-                        <img src="img/portfolio/{{ .imgB }}" class="img-responsive img-centered" alt="">
+            <img src="img/portfolio/{{ .imgB }}" class="img-responsive img-centered" alt="">
             {{ with .description }}
             <p>{{ . | markdownify }}</p>
             {{ end }}
@@ -51,6 +51,13 @@
             {{ if .nutrition }}
             <hr class="star-primary">
             <p><b>Nutritional Information:</b></p>
+            {{ end }}
+
+            {{ if .calories }}
+            <p> {{ .calories }} </p>
+            {{ end }}
+
+            {{ if .nutrition }}
 
             <table id="nutrition-info">
               <tr>
@@ -143,7 +150,7 @@
             </table>
             {{ end }}
             <br>
-    <p><i>All raw food nutritionals are analysed and verified by independant labs to ensure quality and consistency</i></p>
+            <p><i>All raw food nutritionals are analysed and verified by independant labs to ensure quality and consistency</i></p>
             {{ end }}
 
             {{ if or .client .date .storelink }}

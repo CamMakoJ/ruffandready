@@ -1,4 +1,4 @@
-modalID: 9
+modalID: 7
 title: Herring
 #date: 2014-07-05
 imgA: herring.jpg
@@ -10,3 +10,8 @@ description: Herring sourced from BC.
 packaging: Package 10 x 1 lb
 ingredients: Whole herring
 #storelink: www.LinkToBigCartel.ca
+## nutrition: 1  (FOR SOME REASON THIS CAUSES AN ERROR?????? for the SALMON the salmon data showing up in the herring modal)
+nutrition: 0
+calories: '173 Calories per 3 oz.'
+protein: 17.96
+fat: 9.04
