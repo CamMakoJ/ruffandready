@@ -7,21 +7,22 @@ imgB: chickenB.jpg
 clientLink: "#"
 category: Ruff'n'Ready
 description: 100% Alberta made. Processed in provincially inspected facilities, antibiotic & hormone free. All natural grain fed and cage free protein. A 100% protein meal.
-packaging: Package of 8 x 4 lb case | Package of 1 x 10 lb case
+packaging: 4 lb case | 12 lb case | 24 lb case
 ingredients: 65% Whole chicken meat, 9-14% bone, 15% organ meat (heart & liver)
 #storelink: www.LinkToBigCartel.ca
 nutrition: 1
 calories: '220 Calories per 4 oz.'
-moisture: 69
-protein:
-fat:
+moisture: 75
+protein: 14.00
+fat: 15.00
 calcium: 1.14
 phosphorous: 0.59
-fibre:
+magnesium: .03
 potassium: 0.17
 sodium: 0.08
+fibre: 0.5
 ash: 2.81
-manganese: 0.03 (mg/kg)
-copper: 3.06 (mg/kg)
 iron: 16.6 (mg/kg)
+manganese: 0.54 (mg/kg)
 zinc: 21.11 (mg/kg)
+copper: 3.06 (mg/kg)

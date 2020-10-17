@@ -16,10 +16,11 @@
             {{ with .title }}
             <h2>{{ . }}</h2>
             {{ end }}
+
             {{ if and .title .description }}
             <hr class="star-primary">
-
             {{ end }}
+
             <img src="img/portfolio/{{ .imgB }}" class="img-responsive img-centered" alt="">
             {{ with .description }}
             <p>{{ . | markdownify }}</p>
@@ -30,6 +31,7 @@
             <p><b>Package Options:</b></p>
             <p>{{ .packaging | markdownify }}</p>
             {{ end }}
+
             <hr class="star-primary">
 
             {{ if .ingredients}}
@@ -57,6 +59,8 @@
             <p> {{ .calories }} </p>
             {{ end }}
 
+
+
             {{ if .nutrition }}
 
             <table id="nutrition-info">
@@ -64,94 +68,118 @@
                 <th>Component</th>
                 <th>Percentage (%)</th>
               </tr>
+
               {{ if .moisture }}
               <tr>
                 <td>Moisture</td>
                 <td>{{.moisture}}</td>
               </tr>
               {{ end }}
-              {{ if .ash }}
-              <tr>
-                <td>Ash</td>
-                <td>{{.ash}}</td>
-              </tr>
-              {{ end }}
+
               {{ if .protein }}
               <tr>
                 <td>Protein</td>
                 <td>{{.protein}}</td>
               </tr>
               {{ end }}
+
               {{ if .fat }}
               <tr>
                 <td>Fat</td>
                 <td>{{.fat}}</td>
               </tr>
               {{ end }}
+
+              {{ if .carbohydrate }}
+              <tr>
+                <td>Carbohydrate</td>
+                <td>{{.carbohydrate}}</td>
+              </tr>
+              {{ end }}
+
               {{ if .calcium }}
               <tr>
                 <td>Calcium</td>
                 <td>{{.calcium}}</td>
               </tr>
               {{ end }}
+
               {{ if .phosphorous }}
               <tr>
                 <td>Phosphorous</td>
                 <td>{{.phosphorous}}</td>
               </tr>
               {{ end }}
+
               {{ if .magnesium }}
               <tr>
                 <td>Magnesium</td>
                 <td>{{.magnesium}}</td>
               </tr>
               {{ end }}
+
+              {{ if .ash }}
+              <tr>
+                <td>Ash</td>
+                <td>{{.ash}}</td>
+              </tr>
+              {{ end }}
+
               {{ if .fibre }}
               <tr>
                 <td>Fibre</td>
                 <td>{{.fibre}}</td>
               </tr>
               {{ end }}
+
               {{ if .potassium }}
               <tr>
                 <td>Potassium</td>
                 <td>{{.potassium}}</td>
               </tr>
               {{ end }}
+
               {{ if .sodium }}
               <tr>
                 <td>Sodium</td>
                 <td>{{.sodium}}</td>
               </tr>
+              {{ end }}
+
               {{ if .copper }}
               <tr>
                 <td>Copper</td>
                 <td>{{.copper}}</td>
               </tr>
               {{ end }}
+
               {{ if .iron }}
               <tr>
                 <td>Iron</td>
                 <td>{{.iron}}</td>
               </tr>
               {{ end }}
+
               {{ if .manganese }}
               <tr>
                 <td>Manganese</td>
                 <td>{{.manganese}}</td>
               </tr>
               {{ end }}
+
               {{ if .zinc }}
               <tr>
                 <td>Zinc</td>
                 <td>{{.zinc}}</td>
               </tr>
               {{ end }}
+
             </table>
             {{ end }}
+
             <br>
-            <p><i>All raw food nutritionals are analysed and verified by independant labs to ensure quality and consistency</i></p>
-            {{ end }}
+            <p><i>All raw food nutritionals are analysed and verified by independent labs to ensure quality and consistency</i></p>
+
 
             {{ if or .client .date .storelink }}
             <ul class="list-inline item-details">
