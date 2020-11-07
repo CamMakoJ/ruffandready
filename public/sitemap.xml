@@ -1,55 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/bios/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/food-calc/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/food-info/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/info/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/meal-plan/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/temp/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/where-to-buy/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
