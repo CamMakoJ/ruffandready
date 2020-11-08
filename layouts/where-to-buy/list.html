@@ -15,25 +15,36 @@
 </div>
 </header>
 
-<main>
-  <div class="container">
+
+
+
+
+
+<div class="row aligned-row">
+  <div class="container-fluid">
     {{ range .Site.Data.whereToBuy }}
-    <div class="card container text-center">
-      <h3 class="card-title">{{ .store }}</h3>
-      <p class="card-text">{{ .Phone }}</p>
-      <a href="{{ .Website }}">
-        <img class="card-img-top" src="../img/where-to-buy/{{ .img }}" width="125"> </img></a>
-      <a href="{{ .MapLink }}">
-        <p class="card-text">{{ .Address }}</p>
-      </a>
-      <a href="{{ .Website }}">
-        <p class="card-text"><small>{{ .Website }}</p>
-      </a>
+
+
+    <div class="col-md-6">
+      <div class="card text-center flex">
+
+        <h3 class="card-title">{{ .store }}</h3>
+        <p class="card-text">{{ .Phone }}</p>
+        <a href="{{ .Website }}">
+          <img class="card-img-top" src="../img/where-to-buy/{{ .img }}" height="90"> </img></a>
+        <a href="{{ .MapLink }}">
+          <p class="card-text">{{ .Address }}</p>
+        </a>
+        <a href="{{ .Website }}" class="btn btn-link">Website</a>
+
+
+      </div>
     </div>
+
+
     {{ end }}
   </div>
-</main>
-
+</div>
 
 
 <div class="container text-center" style="padding-top: 50px">
