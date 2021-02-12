@@ -15,20 +15,13 @@
 </div>
 </header>
 
-
-
-
-
-
 <div class="row aligned-row">
   <div class="container-fluid">
     {{ range .Site.Data.whereToBuy }}
-
-
     <div class="col-md-6">
       <div class="card text-center flex">
-
         <h3 class="card-title">{{ .store }}</h3>
+        <h4 class="card-text">{{ .description }}<h4>
         <p class="card-text">{{ .Phone }}</p>
         <a href="{{ .Website }}">
           <img class="card-img-top" src="../img/where-to-buy/{{ .img }}" height="90"> </img></a>
@@ -36,8 +29,6 @@
           <p class="card-text">{{ .Address }}</p>
         </a>
         <a href="{{ .Website }}" class="btn btn-link">Website</a>
-
-
       </div>
     </div>
 

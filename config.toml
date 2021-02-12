@@ -36,6 +36,7 @@ googleAnalytics = "UA-120221892-1"
 			services  = "Services"
 			portfolio = "Products"
 			contact   = "Contact"
+			buy = "Where to Buy"
 
 	# Hero section
 	[params.hero]
