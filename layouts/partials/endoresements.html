@@ -1,0 +1,23 @@
+<div class="slick-carousel">
+	{{ range .Site.Data.endorsements }}
+
+	<div style="padding-top: 30px;padding-right: 30px;padding-bottom: 10px;padding-left: 50px;">
+
+		{{ if .image }}
+		<div class="col-sm-4 text-center">
+			<img class="rounded" style="height:250px; margin-right: auto; margin-left: auto" src="../img/endorsements/{{ .image }}"></img>
+		</div>
+		<br>
+		<div class="col-sm-8">
+			<p style="word-wrap: break-word;"><i>"{{ .quote }}"</i></p>
+			<h3 style="text-align: right;"> - {{ .author }}</h3>
+		</div>
+
+		{{ else }}
+		<p style="word-wrap: break-word;"><i>"{{ .quote }}"</i></p>
+		<h3 style="text-align: right;"> - {{ .author }}</h3>
+		{{ end }}
+
+	</div>
+	{{ end }}
+</div>

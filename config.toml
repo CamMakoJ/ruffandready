@@ -61,25 +61,26 @@ title = "Highlights"
 	title = "Value"
 	headline = "Our raw food products are all 100% protein so your not paying for frozen fruits and veggies"
 
-	[[params.highlights.list]]
+[[params.highlights.list]]
 		icon = "fa-map"
 		title = "Local Ingredients"
 		headline = "We source locally in Alberta and British Columbia and process only the best ingredients we can find"
 
-		# Meet The Team section
-		[params.bio]
-			# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+
+# Meet The Team section
+[params.bio]
+# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 			name     = "Meet The Team"
 			subtitle = ""
 
-			# Meet The Team section
-			[params.info]
+# Meet The Team section
+[params.info]
 				# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 				name     = "Why we started Ruff'n'Ready"
 				subtitle = ""
 
-	# About section
-	[params.about]
+# About section
+[params.about]
 		headline    = "We go the extra mile to make your pet smile!"
 		description = "We are constantly searching out the finest ingredients for 100% raw food protein meals<br>because your furry friend deserves the best!"
 		buttonText  = "Meet the Team!"
@@ -110,35 +111,35 @@ title = "Highlights"
           title = "Made with Love"
           description = "We love our pets and feed them the best raw proteins we can source!"
 
-    # Portfolio modals
-	[params.portfolio.modal]
+# Portfolio modals
+[params.portfolio.modal]
         client = "Client"
         date = "Date"
         category = "Category"
         buttonText = "Close"
 
-  	# bios modals
-			[params.bios.modal]
+# bios modals
+[params.bios.modal]
 						title = "Title"
 						role = "Role"
 						biography = "Biography"
 						buttonText = "Close"
 
 
-		# food-info selections
-		[params.foodInfo]
+# food-info selections
+[params.foodInfo]
 		title = "Fruits and Vegetables"
 
-		# food-info modals
-		[params.foodInfo.modal]
+# food-info modals
+[params.foodInfo.modal]
 			name = "Name"
 			description = "Description"
 			benefits = "Benefits"
 			nutrition = "Nutrition"
 			buttonText = "Close"
 
-			# meal-plan selections
-			[params.mealPlan]
+# meal-plan selections
+[params.mealPlan]
 			title = "Meal Planning"
 			boom = "Let Ruff'n'Ready take some of the guesswork out of raw dog food for you. If your pet is healthier with the addition of fresh fruits, vegetables, and mix-ins then check out some of our example meal plans. Raw or cooked veggies and fruits added to your pet’s diet enhance their health, provide low-calorie bulk, to satiate hunger, help to clean teeth and regulate bowels"
 			boop = "These are some general guidelines to help optimize your experience when mixing in fresh addons to your Ruff'n'Ready meals:"
@@ -148,7 +149,7 @@ title = "Highlights"
 			blop = "Adding the fruits and vegetables you are preparing for yourself is easy and economical. Just remember no salt or butter for your pet"
 			blob = "Remember there are fruits and vegetables which are harmful to pets the internet and our website has a wealth of information if you are in doubt"
 			brip = "Supplements such as fish or krill oil, tripe, and Spirulina are also great to add to your pet's diet and are available where you pick up Ruff'n'Ready"
-			# meal-plan modals
+		# meal-plan modals
 			[params.mealPlan.modal]
 				name = "Name"
 				description = "Description"

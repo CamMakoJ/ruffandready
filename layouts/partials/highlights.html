@@ -1,18 +1,26 @@
 {{ "<!-- HIGHLIGHTS -->" | safeHTML }}
 <aside class="bg-dark">
-    <div class="container">
-      <div class="row">
-        {{ range .Site.Params.highlights.list }}
-        <div class="col-md-4 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x {{ .icon }} bounceIn text-secondary"></i>
-            <h3>{{ .title }}</h3>
-            {{ with .headline }}
-            <p class="text-muted">{{ . }}</p>
-            {{ end }}
-          </div>
+  <div class="container">
+
+    <div class="row">
+      {{ range .Site.Params.highlights.list }}
+      <div class="col-md-4 text-center">
+        <div class="service-box">
+          <i class="fa fa-4x {{ .icon }} bounceIn text-secondary"></i>
+          <h3>{{ .title }}</h3>
+          {{ with .headline }}
+          <p class="text-muted">{{ . }}</p>
+          {{ end }}
         </div>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
+            <hr class="star-primary">
+    <div>
+      {{ partial "endoresements.html" . }}
+    </div>
+
+  </div>
+
+
 </aside>
